@@ -1,2 +1,7 @@
 # Temperature-Converter-Santander
-Aplicação para conversão de temperaturas. Desenvolvidos para o Santander Coders by [Ada](https://www.linkedin.com/school/adatechbr/)
+
+Application for temperature conversion.
+
+-----
+
+Developed with 💛 for Santander Coders by Ada - Let's Code
