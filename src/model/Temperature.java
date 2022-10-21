@@ -30,13 +30,16 @@ public class Temperature {
         this.unity = unity;
     }
 
-
-
     @Override
     public String toString() {
-        return "Temperature{" +
-                "value=" + value +
-                ", unity=" + unity +
-                '}';
+        String aux = String.valueOf(value);
+
+        switch (unity) {
+            case CELSIUS -> aux += " ºC";
+            case FAHRENHEIT -> aux += " °F";
+            case KELVIN -> aux += " K";
+        }
+
+        return aux;
     }
 }
