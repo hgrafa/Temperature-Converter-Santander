@@ -30,6 +30,12 @@ public class Temperature {
         this.unity = unity;
     }
 
+
+
+    public void convertTemperatures() {
+
+    }
+
     @Override
     public String toString() {
         String aux = String.valueOf(value);
